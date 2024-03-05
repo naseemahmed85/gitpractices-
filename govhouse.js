@@ -1,6 +1,7 @@
-var program = "Governor House";
+"use strict";
+let program = "Governor House";
 console.log(program);
-var program1 = "Kamran Khan Tessori";
+let program1 = "Kamran Khan Tessori";
 console.log(program1);
-var userName = "Sir Amin Alam";
+let userName = "Sir Amin Alam";
 console.log(userName);
