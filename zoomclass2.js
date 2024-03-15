@@ -1,15 +1,16 @@
+"use strict";
 if (true) {
-    var firstName = "Naseem";
-    var midName = "Ahmed";
-    var lastName = "Abbasi";
-    var fullName = ("".concat(firstName, " ").concat(midName, " ").concat(lastName));
+    let firstName = "Naseem";
+    let midName = "Ahmed";
+    let lastName = "Abbasi";
+    let fullName = (`${firstName} ${midName} ${lastName}`);
     console.log(fullName);
 }
 if (true) {
-    var myName = "Naseem Ahmed";
-    var myFatherName = "Sajawal Khan";
-    var mobileNumber = "+923161285016";
-    var bankName = "MCB";
-    var completeData = ("".concat(myName, " | ").concat(myFatherName, " | ").concat(mobileNumber, " | ").concat(bankName));
+    let myName = "Naseem Ahmed";
+    let myFatherName = "Sajawal Khan";
+    let mobileNumber = "+923161285016";
+    let bankName = "MCB";
+    let completeData = (`${myName} | ${myFatherName} | ${mobileNumber} | ${bankName}`);
     console.log(completeData);
 }
